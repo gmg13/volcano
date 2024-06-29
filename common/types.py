@@ -35,6 +35,3 @@ class BoolType(CType[bool]):
     """
     def val(self) -> bool:
         return bool(self.b)
-
-a: BoolType = BoolType(b'')
-print(a.val())
